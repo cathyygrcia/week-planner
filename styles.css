@@ -94,7 +94,7 @@ a {
   box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   margin: 0 auto;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .col-full {
@@ -109,6 +109,18 @@ a {
 
 input {
   width: 15rem;
+  font-size: 1.5rem;
   border-radius: 5px;
   border: 1px solid rgb(66, 90, 146);
+  margin-bottom: 1rem;
+}
+
+textarea {
+  border-radius: 5px;
+  border: 1px solid rgb(66, 90, 146);
+  width: 55%;
+}
+
+label {
+  font-size: 1.5rem;
 }
