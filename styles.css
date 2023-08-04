@@ -23,13 +23,22 @@ li {
 }
 
 .sub-li {
-  text-align: center;
   flex-basis: 100%;
   display: flex;
+  justify-content: center;
+  border: 1px solid black;
 }
 
 .sub-ul {
   display: flex;
-  justify-content: flex-end;
   align-items: flex-end;
+}
+
+.sub-p {
+  flex-basis: 100%;
+}
+
+.inner-p {
+  margin: 0;
+  padding: 0;
 }
