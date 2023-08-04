@@ -1,3 +1,17 @@
+body {
+  margin: 0 auto;
+  background-color: rgb(190, 202, 233);
+}
+
+header {
+  background-color: rgb(229, 235, 249);
+  position: fixed;
+  bottom: 1;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+
 .header-one {
   display: flex;
   justify-content: center;
@@ -7,7 +21,7 @@
   list-style: none;
   flex-basis: calc(100% / 7);
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid rgb(145, 163, 206);
   display: flex;
   align-items: center;
 }
@@ -26,7 +40,6 @@ li {
   flex-basis: 100%;
   display: flex;
   justify-content: center;
-  border: 1px solid black;
 }
 
 .sub-ul {
@@ -41,4 +54,8 @@ li {
 .inner-p {
   margin: 0;
   padding: 0;
+}
+
+.container {
+  margin-top: 10rem;
 }
