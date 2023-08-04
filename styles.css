@@ -28,12 +28,6 @@ li {
   display: flex;
 }
 
-.sub-p {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .sub-ul {
   display: flex;
   justify-content: flex-end;
