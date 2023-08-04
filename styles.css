@@ -124,3 +124,19 @@ textarea {
 label {
   font-size: 1.5rem;
 }
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+table,
+th,
+td {
+  border: 1px solid rgb(1, 19, 58);
+}
+
+table {
+  width: 80%;
+}
