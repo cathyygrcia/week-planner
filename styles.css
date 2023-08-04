@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-color: rgb(229, 235, 249);
+  background-color: rgb(190, 202, 233);
   position: fixed;
   bottom: 1;
   right: 0;
@@ -24,6 +24,9 @@ header {
   border: 1px solid rgb(145, 163, 206);
   display: flex;
   align-items: center;
+  box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgb(254, 254, 255);
+  color: rgb(66, 90, 146);
 }
 
 .nav-ul {
