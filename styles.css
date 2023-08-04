@@ -8,6 +8,8 @@
   flex-basis: calc(100% / 7);
   text-align: center;
   border: 1px solid black;
+  display: flex;
+  align-items: center;
 }
 
 .nav-ul {
@@ -18,4 +20,22 @@
 
 li {
   list-style: none;
+}
+
+.sub-li {
+  text-align: center;
+  flex-basis: 100%;
+  display: flex;
+}
+
+.sub-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
