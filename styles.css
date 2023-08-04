@@ -3,6 +3,14 @@
   justify-content: center;
 }
 
-li {
+.day {
   list-style: none;
+  flex-basis: calc(100% / 7);
+  text-align: center;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
 }
