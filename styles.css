@@ -80,10 +80,12 @@ main {
   box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
   background-color: rgb(254, 254, 255);
   color: rgb(66, 90, 146);
+  padding-bottom: 2.5rem;
 }
 
 a {
   text-decoration: none;
+  color: rgb(66, 90, 146);
 }
 
 .form-container {
@@ -92,9 +94,21 @@ a {
   box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   margin: 0 auto;
+  padding-bottom: 1rem;
 }
 
 .col-full {
   width: 100%;
   text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+input {
+  width: 15rem;
+  border-radius: 5px;
+  border: 1px solid rgb(66, 90, 146);
 }
