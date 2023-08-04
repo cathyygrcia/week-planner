@@ -7,10 +7,15 @@
   list-style: none;
   flex-basis: calc(100% / 7);
   text-align: center;
+  border: 1px solid black;
 }
 
 .nav-ul {
   display: flex;
   justify-content: center;
   padding-left: 0;
+}
+
+li {
+  list-style: none;
 }
